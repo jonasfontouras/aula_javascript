@@ -29,6 +29,23 @@ function soma(n1, n2){
 }
 
 alert(soma(10, 5));
+
+function btnClicar(){
+    document.getElementById("text").innerHTML = "Clicado com sucesso!"
+    //alert("Botão clicado com sucesso!");
+}
+
+function redirect(){
+    window.open("/Users/jonas/OneDrive/Documentos/DIO/aula_javascript/.vscode/redirect.html")
+}
+
+function passemouse(elemento){
+    elemento.innerHTML = "Obrigado por passar.";
+}
+
+function tiremouse(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+}
 //console.log(frase);
 
 //console.log(frase.replace("Harvard", "AMF").toUpperCase());
